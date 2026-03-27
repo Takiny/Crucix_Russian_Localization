@@ -1,0 +1,514 @@
+{
+  "meta": {
+    "code": "en",
+    "name": "English",
+    "nativeName": "English"
+  },
+  "dashboard": {
+    "title": "CRUCIX — Intelligence Terminal",
+    "brand": "CRUCIX MONITOR",
+    "regimeChip": "WARTIME STAGFLATION RISK",
+    "bootTitle": "CRUCIX INTELLIGENCE ENGINE",
+    "bootSubtitle": "Local Palantir · 31 Sources",
+    "waitingForSweep": "Waiting for first sweep...",
+    "sourcesOk": "Sources OK",
+    "lastSweep": "Last sweep",
+    "nextSweep": "Next sweep",
+    "sweep": "SWEEP",
+    "sources": "SOURCES",
+    "delta": "DELTA",
+    "highAlert": "HIGH ALERT",
+    "riskOff": "RISK-OFF",
+    "riskOn": "RISK-ON",
+    "mixed": "MIXED",
+    "terminalActive": "TERMINAL ACTIVE",
+    "visuals": "VISUALS",
+    "visualsHelp": "Reduce visual effects and start mobile in flat mode",
+    "visualsLite": "LITE",
+    "visualsFull": "FULL",
+    "perf": "PERF",
+    "perfLow": "LOW",
+    "perfHigh": "HIGH",
+    "guideBtn": "What Signals Mean"
+  },
+  "boot": {
+    "initializing": "INITIALIZING CRUCIX ENGINE v2.1.0",
+    "connecting": "CONNECTING {count} OSINT SOURCES...",
+    "sourceGroup1": "OPENSKY · FIRMS · KIWISDR · MARITIME",
+    "sourceGroup2": "FRED · BLS · EIA · TREASURY · GSCPI",
+    "sourceGroup3": "TELEGRAM · SAFECAST · EPA · WHO · OFAC",
+    "sourceGroup4": "GDELT · NOAA · PATENTS · BLUESKY · REDDIT",
+    "sourceGroup5": "USGS · ECB · CVE · COPERNICUS · CELESTRAK",
+    "sweepComplete": "SWEEP COMPLETE — {ok}/{total} SOURCES",
+    "ok": "OK",
+    "acledLayer": "ACLED CONFLICT LAYER",
+    "events": "EVENTS",
+    "degraded": "DEGRADED",
+    "flightCorridors": "FLIGHT CORRIDORS",
+    "active": "ACTIVE",
+    "dualProjection": "DUAL PROJECTION",
+    "ready": "READY",
+    "intelligenceSynthesis": "INTELLIGENCE SYNTHESIS"
+  },
+  "panels": {
+    "sensorGrid": "Sensor Grid",
+    "tradeIdeas": "Leverageable Ideas",
+    "osintFeed": "OSINT Feed",
+    "osintStream": "OSINT Stream",
+    "nuclearWatch": "Nuclear Watch",
+    "newsTicker": "Live News Ticker",
+    "sweepDelta": "Sweep Delta",
+    "macroMarkets": "Macro + Markets",
+    "healthAlerts": "Health Alerts",
+    "riskGauges": "Risk Gauges",
+    "crossSourceSignals": "Cross-Source Signals",
+    "signalCore": "Signal Core",
+    "seismicWatch": "Seismic Watch",
+    "cyberWatch": "Cyber Watch",
+    "spaceWatch": "Space Watch",
+    "europeAlerts": "Europe Alerts",
+    "ecbIndicators": "ECB Indicators"
+  },
+  "layers": {
+    "airActivity": "Air Activity",
+    "thermalSpikes": "Thermal Spikes",
+    "sdrCoverage": "SDR Coverage",
+    "maritimeWatch": "Maritime Watch",
+    "nuclearSites": "Nuclear Sites",
+    "conflictEvents": "Conflict Events",
+    "healthWatch": "Health Watch",
+    "worldNews": "World News",
+    "osintFeed": "OSINT Feed",
+    "theaters": "theaters",
+    "nightDet": "night det.",
+    "online": "online",
+    "chokepoints": "chokepoints",
+    "monitors": "monitors",
+    "fatalities": "fatalities",
+    "whoAlerts": "WHO alerts",
+    "rssGeolocated": "RSS geolocated",
+    "earthquakes": "Earthquakes",
+    "seismicEvents": "Seismic Events",
+    "cyberVulns": "Cyber Vulnerabilities",
+    "spaceActivity": "Space Activity",
+    "europeEmergency": "Europe Emergency"
+  },
+  "map": {
+    "worldNews": "World News",
+    "healthAlert": "Health Alert",
+    "chokepoint": "Chokepoint",
+    "nuclearSite": "Nuclear Site",
+    "osintEvent": "OSINT Event",
+    "thermalDetection": "Thermal Detection",
+    "aircraft": "Aircraft",
+    "rssGeolocated": "RSS geolocated",
+    "airTraffic": "Air Traffic",
+    "thermalFire": "Thermal/Fire",
+    "conflict": "Conflict",
+    "sdrReceiver": "SDR Receiver",
+    "scrollToZoom": "SCROLL TO ZOOM · DRAG TO PAN",
+    "globeMode": "GLOBE MODE",
+    "flatMode": "FLAT MODE",
+    "earthquake": "Earthquake",
+    "disaster": "Disaster",
+    "weatherAlert": "Weather Alert",
+    "epaRadNet": "EPA RadNet",
+    "spaceStation": "Space Station",
+    "gdeltEvent": "GDELT Event"
+    ,
+    "loading3d": "Initializing 3D Globe",
+    "load3dFailedFlat": "3D LOAD FAILED · FLAT MODE",
+    "dragToRotate": "DRAG TO ROTATE · SCROLL TO ZOOM",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "toggleFlights": "Toggle flight routes",
+    "status": "Status",
+    "normal": "Normal",
+    "avgCpm": "Avg CPM",
+    "readings": "Readings",
+    "whoOutbreak": "WHO Outbreak"
+    ,
+    "aircraftTracked": "aircraft tracked",
+    "noCallsign": "No callsign",
+    "highAltitude": "High altitude",
+    "top": "Top",
+    "region": "Region",
+    "total": "Total",
+    "night": "Night"
+  },
+  "glossary": {
+    "kicker": "Signal Guide",
+    "title": "What the signals actually mean",
+    "sub": "Plain-English interpretation, why it matters, and what you should not infer from it.",
+    "foot": "Treat these as interpretation guides, not conclusions. Stronger judgments should come from corroboration across multiple layers, not from a single signal viewed in isolation.",
+    "close": "Close signal guide"
+  },
+  "space": {
+    "iss": "ISS",
+    "alt": "ALT",
+    "militarySatsShort": "mil sats",
+    "noData": "NO SPACE DATA"
+  },
+  "signalGuide": {
+    "items": [
+      {
+        "term": "No Callsign",
+        "category": "Air",
+        "meaning": "OpenSky received an aircraft track without a usable callsign or flight ID in that record.",
+        "matters": "Useful as an opacity signal. A cluster of missing callsigns can indicate incomplete transponder metadata or less transparent traffic.",
+        "notMeaning": "Not proof of military, covert, or hostile activity on its own.",
+        "example": "South China Sea: No Callsign 6 of 152 means 6 tracks in that theater had no usable callsign in the feed."
+      },
+      {
+        "term": "High Altitude",
+        "category": "Air",
+        "meaning": "Aircraft above 12,000 meters, roughly 39,000 feet, in the current OpenSky snapshot.",
+        "matters": "Separates cruise-level traffic from lower-altitude local or regional movement.",
+        "notMeaning": "Not a danger score and not inherently unusual. Commercial jets commonly operate here.",
+        "example": "High Altitude 2 means only 2 tracked aircraft in that hotspot were above the cruise threshold at that snapshot."
+      },
+      {
+        "term": "Top Countries",
+        "category": "Air",
+        "meaning": "The most common OpenSky origin_country values among aircraft in that hotspot.",
+        "matters": "Useful for understanding the rough composition of traffic flowing through a theater.",
+        "notMeaning": "Not who is controlling the aircraft right now and not a direct indicator of military ownership.",
+        "example": "China (61), Philippines (39), Taiwan (17) means those were the top registered origin countries in the snapshot."
+      },
+      {
+        "term": "FRP",
+        "category": "Thermal",
+        "meaning": "Fire Radiative Power. This is the intensity of one specific FIRMS hotspot, measured in megawatts.",
+        "matters": "Higher FRP usually means a hotter, larger, or more energetic fire event at that exact point.",
+        "notMeaning": "Not the intensity of the whole region and not automatic proof of conflict activity.",
+        "example": "Sudan / Horn of Africa: FRP 92.3 MW describes that one hotspot, while Total 1,451 describes the entire regional detection count."
+      },
+      {
+        "term": "Total Detections",
+        "category": "Thermal",
+        "meaning": "The total number of FIRMS thermal detections in the entire region bucket for the current sweep.",
+        "matters": "Useful for spotting unusually active fire clusters, especially when compared with historical baselines or night activity.",
+        "notMeaning": "Not a count for the single map point you clicked and not necessarily a conflict count.",
+        "example": "Total 1,451 means the whole Sudan / Horn of Africa bucket had 1,451 detections in that sweep."
+      },
+      {
+        "term": "Night Detections",
+        "category": "Thermal",
+        "meaning": "Thermal detections tagged as occurring at night inside the broader FIRMS region bucket.",
+        "matters": "Nighttime heat can be more noteworthy because it is less likely to be routine daytime land burning.",
+        "notMeaning": "Not a direct combat indicator. It still needs context from location, baseline, and corroborating sources.",
+        "example": "Night 140 means 140 of the 1,451 regional detections were nighttime detections in that sweep."
+      },
+      {
+        "term": "Chokepoint",
+        "category": "Maritime",
+        "meaning": "A strategic maritime corridor or passage where trade and energy flows can be delayed, diverted, or disrupted.",
+        "matters": "These nodes matter because a disruption here can affect shipping costs, transit times, and commodity pricing globally.",
+        "notMeaning": "Not proof that disruption is happening now. It is a strategic watch location.",
+        "example": "Bab el-Mandeb or the Strait of Hormuz matter because shipping and energy flows concentrate there."
+      },
+      {
+        "term": "SDR Receiver",
+        "category": "Signals",
+        "meaning": "A publicly reachable software-defined radio receiver in or near a region of interest.",
+        "matters": "Dense receiver coverage can give you more ability to monitor communications or signal activity in a theater.",
+        "notMeaning": "Not evidence of hostile emissions or a threat by itself. It is an observation and monitoring layer.",
+        "example": "South China Sea SDR count means publicly accessible KiwiSDR receivers are available in or near that zone."
+      },
+      {
+        "term": "CPM",
+        "category": "Radiation",
+        "meaning": "Counts per minute from a radiation monitoring source, used here for relative radiation status at a site.",
+        "matters": "Useful for spotting anomalies against the site’s normal range or comparing consecutive readings.",
+        "notMeaning": "Not a direct safety verdict on its own. Interpretation depends on local baseline and trend, not the raw number alone.",
+        "example": "A site reading 33 CPM can be normal if that location’s usual background level is in the same range."
+      },
+      {
+        "term": "HY Spread",
+        "category": "Macro",
+        "meaning": "High-yield credit spread, shown here as a stress proxy from FRED credit data.",
+        "matters": "When spreads widen, markets are usually pricing more credit stress and tighter financial conditions.",
+        "notMeaning": "Not a recession call by itself. It is one stress signal among many.",
+        "example": "A rising HY Spread alongside higher VIX and weaker equities is a stronger risk-off pattern than HY alone."
+      },
+      {
+        "term": "VIX",
+        "category": "Macro",
+        "meaning": "The CBOE Volatility Index, commonly used as a market-implied fear or volatility gauge.",
+        "matters": "Higher VIX often means more expected equity volatility and more defensive market positioning.",
+        "notMeaning": "Not a direct forecast of a crash and not a geopolitical indicator by itself.",
+        "example": "VIX above 20 with widening HY spreads is a stronger stress pattern than VIX alone."
+      },
+      {
+        "term": "GSCPI",
+        "category": "Macro",
+        "meaning": "The Global Supply Chain Pressure Index, a broad indicator of global supply-chain strain.",
+        "matters": "It helps translate geopolitical or weather disruptions into likely pressure on shipping, inventory, and pricing.",
+        "notMeaning": "Not a live market price and not a company-specific supply-chain score by itself.",
+        "example": "A higher GSCPI makes route or energy shocks more likely to spill into broader cost pressure."
+      },
+      {
+        "term": "WHO Alert",
+        "category": "Health",
+        "meaning": "A WHO Disease Outbreak News item or outbreak-related bulletin surfaced in the health layer.",
+        "matters": "Useful for watching outbreaks that could affect travel, supply chains, humanitarian stress, or regional operating conditions.",
+        "notMeaning": "Not a pandemic declaration and not automatically high severity.",
+        "example": "A WHO alert in a port-heavy region matters more if it overlaps shipping, border controls, or local instability signals."
+      },
+      {
+        "term": "Sweep Delta",
+        "category": "Platform",
+        "meaning": "The change summary between the current sweep and the previous one, including new, escalated, and de-escalated signals.",
+        "matters": "Useful for spotting what changed recently instead of re-reading the full dashboard from scratch.",
+        "notMeaning": "Not a full risk model. It is a directional change layer on top of the raw signals.",
+        "example": "A delta marked risk-off with several new and escalated items means the latest sweep materially worsened the signal mix."
+      }
+    ]
+  },
+  "ideas": {
+    "confidence": "Confidence",
+    "horizon": "Horizon",
+    "risk": "Risk",
+    "signals": "Signals",
+    "rationale": "Rationale",
+    "aiEnhanced": "AI ENHANCED",
+    "llmOff": "LLM OFF",
+    "pending": "PENDING",
+    "llmNotConfigured": "LLM NOT CONFIGURED",
+    "llmHelp": "Set LLM_PROVIDER + credentials in .env to enable AI-powered trade ideas",
+    "disclosure": "FOR INFORMATIONAL PURPOSES ONLY. This is not financial advice, a recommendation to buy or sell any security, or a solicitation of any kind. All signal-based observations are derived from publicly available OSINT data and should not be relied upon for investment decisions. Consult a licensed financial advisor before making any investment. Past performance does not guarantee future results."
+  },
+  "regions": {
+    "world": "World",
+    "americas": "Americas",
+    "europe": "Europe",
+    "middleEast": "Middle East",
+    "asiaPacific": "Asia Pacific",
+    "africa": "Africa"
+  },
+  "badges": {
+    "radiation": "RADIATION",
+    "live": "LIVE",
+    "delayed": "DELAYED",
+    "items": "ITEMS",
+    "urgent": "URGENT",
+    "worldview": "WORLDVIEW",
+    "hotMetrics": "HOT METRICS",
+    "stress": "STRESS",
+    "sweeping": "SWEEPING...",
+    "europe": "EUROPE",
+    "orbital": "ORBITAL"
+  },
+  "delta": {
+    "baseline": "BASELINE",
+    "escalation": "ESCALATION",
+    "deescalation": "DE-ESCALATION",
+    "stable": "STABLE",
+    "newSignals": "New Signals",
+    "resolved": "Resolved",
+    "noChanges": "No changes since last sweep",
+    "changes": "Changes",
+    "critical": "Critical",
+    "new": "NEW"
+  },
+  "metrics": {
+    "wtiCrude": "WTI Crude",
+    "brent": "Brent",
+    "natGas": "Nat Gas",
+    "vix": "VIX",
+    "fedFunds": "Fed Funds",
+    "gscpi": "GSCPI",
+    "cpiMom": "CPI MoM",
+    "unemployment": "Unemployment",
+    "hySpread": "HY Spread",
+    "usdIndex": "USD Index",
+    "joblessClaims": "Jobless Claims",
+    "mortgage30y": "30Y Mortgage",
+    "m2Supply": "M2 Supply",
+    "natDebt": "Nat. Debt",
+    "wti5day": "WTI 5-DAY",
+    "indexes": "INDEXES",
+    "crypto": "CRYPTO",
+    "energyMacro": "ENERGY + MACRO",
+    "vsPrior": "vs prior",
+    "ecbRate": "ECB Rate",
+    "eurusd": "EUR/USD",
+    "euM3": "EU M3",
+    "euHicp": "EU HICP",
+    "earthquakes7d": "Earthquakes (7d)",
+    "criticalCves": "Critical CVEs",
+    "spaceObjects": "Space Objects",
+    "starlink": "Starlink",
+    "europeAlerts": "EU Alerts"
+  },
+  "signalMetrics": {
+    "incidentTempo": "Incident Tempo",
+    "airTheaters": "Air Theaters",
+    "thermalSpikes": "Thermal Spikes",
+    "sdrNodes": "SDR Nodes",
+    "chokepoints": "Chokepoints",
+    "whoAlerts": "WHO Alerts"
+  },
+  "nuclear": {
+    "allSitesNormal": "ALL SITES NORMAL",
+    "anomalyDetected": "ANOMALY DETECTED",
+    "noData": "No data"
+  },
+  "seismic": {
+    "noRecentQuakes": "NO SIGNIFICANT QUAKES",
+    "majorQuake": "MAJOR QUAKE DETECTED",
+    "tsunamiRisk": "TSUNAMI RISK",
+    "mag": "M"
+  },
+  "cyber": {
+    "noAlerts": "NO CRITICAL CVES",
+    "criticalAlert": "CRITICAL VULNERABILITIES",
+    "cvss": "CVSS",
+    "critical": "CRITICAL"
+  },
+  "space": {
+    "noActivity": "NORMAL ACTIVITY",
+    "launchDetected": "LAUNCH ACTIVITY",
+    "objectsTracked": "objects tracked",
+    "newLast30d": "new (30d)",
+    "satellites": "sats",
+    "recentLaunches": "Recent Launches",
+    "totalTracked": "Total Tracked",
+    "byCountry": "BY COUNTRY",
+    "constellations": "CONSTELLATIONS",
+    "launches": "launches"
+  },
+  "europe": {
+    "noAlerts": "NO ACTIVE ALERTS",
+    "activeAlerts": "ACTIVE ALERTS",
+    "fires": "Fires",
+    "floods": "Floods",
+    "types": "types"
+  },
+  "time": {
+    "justNow": "just now",
+    "hoursAgo": "{hours}h ago",
+    "daysAgo": "{days}d ago"
+  },
+  "bot": {
+    "commands": {
+      "status": "Get current system health, last sweep time, source status",
+      "sweep": "Trigger a manual sweep cycle",
+      "brief": "Get a compact text summary of the latest intelligence",
+      "portfolio": "Show current positions and P&L (if Alpaca connected)",
+      "alerts": "Show recent alert history",
+      "mute": "Mute alerts for 1h (or /mute 2h, /mute 4h)",
+      "unmute": "Resume alerts",
+      "help": "Show available commands"
+    },
+    "messages": {
+      "alertsMuted": "🔇 Alerts muted for {hours}h — until {time} UTC",
+      "useUnmute": "Use /unmute to resume.",
+      "alertsResumed": "🔔 Alerts resumed. You'll receive the next signal evaluation.",
+      "sweepTriggered": "🚀 Manual sweep triggered. You'll receive alerts if anything significant is detected.",
+      "sweepInProgress": "🔄 Sweep already in progress. Please wait.",
+      "noDataYet": "⏳ No data yet — waiting for first sweep to complete.",
+      "noRecentAlerts": "No recent alerts.",
+      "recentAlerts": "📋 Recent Alerts (last {count})",
+      "commandsTip": "Tip: Commands are case-insensitive",
+      "commandFailed": "❌ Command failed: {error}",
+      "portfolioNotAvailable": "📊 Portfolio integration requires Alpaca MCP connection.\nUse the Crucix dashboard or Claude agent for portfolio queries."
+    },
+    "status": {
+      "title": "🖥️ CRUCIX STATUS",
+      "uptime": "Uptime",
+      "lastSweep": "Last sweep",
+      "nextSweep": "Next sweep",
+      "sweepInProgress": "Sweep in progress",
+      "yes": "🔄 Yes",
+      "no": "⏸️ No",
+      "sources": "Sources",
+      "failed": "failed",
+      "llm": "LLM",
+      "enabled": "✅",
+      "disabled": "❌ Disabled",
+      "sseClients": "SSE clients",
+      "dashboard": "Dashboard",
+      "pending": "pending",
+      "never": "never"
+    },
+    "brief": {
+      "title": "📋 CRUCIX BRIEF",
+      "direction": "Direction",
+      "changes": "changes",
+      "criticalChanges": "critical",
+      "osint": "📡 OSINT",
+      "urgentSignals": "urgent signals",
+      "totalPosts": "total posts",
+      "topIdeas": "💡 Top Ideas"
+    },
+    "alertTiers": {
+      "flash": "FLASH",
+      "priority": "PRIORITY",
+      "routine": "ROUTINE"
+    }
+  },
+  "alerts": {
+    "tiers": {
+      "flash": {
+        "label": "FLASH",
+        "description": "Immediate action required — market-moving, time-critical"
+      },
+      "priority": {
+        "label": "PRIORITY",
+        "description": "Important signal cluster — act within hours"
+      },
+      "routine": {
+        "label": "ROUTINE",
+        "description": "Noteworthy change — FYI, no urgency"
+      }
+    },
+    "confidence": {
+      "high": "HIGH",
+      "medium": "MEDIUM",
+      "low": "LOW"
+    },
+    "fields": {
+      "direction": "Direction",
+      "confidence": "Confidence",
+      "crossCorrelation": "Cross-Correlation",
+      "action": "Action",
+      "signals": "Signals",
+      "monitor": "Monitor"
+    },
+    "messages": {
+      "alertsMuted": "Alerts Muted",
+      "mutedUntil": "Alerts silenced for {hours}h — until {time} UTC.",
+      "useUnmuteToResume": "Use /unmute to resume.",
+      "alertsResumed": "Alerts Resumed",
+      "willReceiveNext": "You will receive the next signal evaluation."
+    },
+    "ruleBasedHeadlines": {
+      "nuclearAnomaly": "Nuclear Anomaly Detected",
+      "crossDomainSignals": "{count} Critical Cross-Domain Signals",
+      "escalatingSignals": "{count} Escalating Signals",
+      "osintSurge": "OSINT Surge: {count} New Urgent Posts",
+      "signalChangeDetected": "Signal Change Detected"
+    }
+  },
+  "discord": {
+    "commands": {
+      "status": "System health, last sweep time, source status",
+      "sweep": "Trigger a manual sweep cycle",
+      "brief": "Compact intelligence summary",
+      "portfolio": "Portfolio status (if Alpaca connected)",
+      "alerts": "Recent alert history",
+      "mute": "Mute alerts (default 1h)",
+      "unmute": "Resume alerts",
+      "muteHoursOption": "Hours to mute (default: 1)"
+    }
+  },
+  "llm": {
+    "systemPrompt": "You are a quantitative analyst at a macro intelligence firm. You receive structured OSINT + economic data from 25 sources and produce 5-8 actionable trade ideas.\n\nRules:\n- Each idea must cite specific data points from the input\n- Include entry rationale, risk factors, and time horizon\n- Blend geopolitical, economic, and market signals — cross-correlate across domains\n- Be specific: name instruments (tickers, futures, ETFs), not vague sectors\n- If delta shows significant changes, lead with those\n- Do NOT repeat ideas from the \"previous ideas\" list unless conditions have materially changed\n- Rate confidence: HIGH (multiple confirming signals), MEDIUM (thesis supported), LOW (speculative)\n\nOutput ONLY valid JSON array. Each object:\n{\n  \"title\": \"Short title (max 10 words)\",\n  \"type\": \"LONG|SHORT|HEDGE|WATCH|AVOID\",\n  \"ticker\": \"Primary instrument\",\n  \"confidence\": \"HIGH|MEDIUM|LOW\",\n  \"rationale\": \"2-3 sentence explanation citing specific data\",\n  \"risk\": \"Key risk factor\",\n  \"horizon\": \"Intraday|Days|Weeks|Months\",\n  \"signals\": [\"signal1\", \"signal2\"]\n}"
+  },
+  "api": {
+    "errors": {
+      "noDataYet": "No data yet — first sweep in progress"
+    }
+  }
+}
