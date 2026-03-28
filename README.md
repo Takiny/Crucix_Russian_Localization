@@ -2,9 +2,9 @@
 
 # Crucix
 
-**Your own intelligence terminal. 27 sources. One command. Zero cloud.**
+**Ваш собственный интеллектуальный терминал. 27 источников. Одна команда. Без облачных технологий. Нужно поменять**
 
-## [Visit The Live Site: crucix.live](https://www.crucix.live/)
+## [Посетите официальный сайт: crucix.live](https://www.crucix.live/)
 
 [![Live Website](https://img.shields.io/badge/live-crucix.live-00d4ff?style=for-the-badge)](https://www.crucix.live/)
 [![Open Demo](https://img.shields.io/badge/open-live%20dashboard-0b1220?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.crucix.live/)
@@ -15,7 +15,7 @@
 [![Sources](https://img.shields.io/badge/OSINT%20sources-27-cyan)](#data-sources-27)
 [![Docker](https://img.shields.io/badge/docker-ready-blue?logo=docker)](#docker)
 
-**Enter The Signal Network**
+**Официальная сеть Signal**
 
 [![Signal Wire](https://img.shields.io/badge/Signal%20Wire-%40crucixmonitor-111111?style=for-the-badge&logo=x&logoColor=white)](https://x.com/crucixmonitor)
 [![Ops Room](https://img.shields.io/badge/Ops%20Room-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ChVy7SF4)
@@ -37,16 +37,16 @@
 
 </div>
 
-> **Live website:** [https://www.crucix.live/](https://www.crucix.live/)
+> **Предварительный просмотр сайта:** [https://www.crucix.live/](https://www.crucix.live/)
 > Explore the public demo first, then clone the repo to run Crucix locally.
 
-Crucix pulls satellite fire detection, flight tracking, radiation monitoring, satellite constellation tracking, economic indicators, live market prices, conflict data, sanctions lists, and social sentiment from 27 open-source intelligence feeds — in parallel, every 15 minutes — and renders everything on a single self-contained Jarvis-style dashboard.
+Crucix собирает данные о лесных пожарах со спутников, перемещении самолетов, уровне радиации и положении спутников. Он также отслеживает экономические показатели, рыночные цены в реальном времени, данные о конфликтах, санкционные списки и настроения в соцсетях. Информация параллельно загружается из 29 открытых источников (OSINT) каждые 15 минут и выводится на единую автономную панель управления в стиле Джарвиса.
 
-Hook it up to an LLM and it becomes a **two-way intelligence assistant** — pushing multi-tier alerts to Telegram and Discord when something meaningful changes, responding to commands like `/brief` and `/sweep` from your phone, and generating actionable trade ideas grounded in real cross-domain data. Your own analyst that watches the world while you sleep.
+Если подключить систему к LLM, **она превращается в умного помощника**, который не просто анализирует данные, а взаимодействует с вами. Он сам отслеживает важные изменения, присылает уведомления в Telegram и Discord, умеет выполнять команды с телефона и на основе разных источников формирует полезные торговые идеи. По сути, это ваш личный аналитик, который работает круглосуточно и держит вас в курсе происходящего.
 
-Try the live demo first at [https://www.crucix.live/](https://www.crucix.live/), then clone the repo when you want the full local stack.
+Сначала можно протестировать всё в демо-версии [https://www.crucix.live/](https://www.crucix.live/), а если понравится — скачать репозиторий и развернуть полный вариант системы у себя локально.
 
-No cloud. No telemetry. No subscriptions. Just `node server.mjs` and you're running.
+Без облачных сервисов, без сбора данных и без подписок — просто запускаешь node server.mjs, и система сразу готова к работе на твоём устройстве.
 
 ## Token / Asset Warning
 
