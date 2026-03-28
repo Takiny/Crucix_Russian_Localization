@@ -48,23 +48,21 @@ Crucix собирает данные о лесных пожарах со спу�
 
 Без облачных сервисов, без сбора данных и без подписок — просто запускаешь node server.mjs, и система сразу готова к работе на твоём устройстве.
 
-## Token / Asset Warning
+## Предупреждение о токене / активе
 
-> [!WARNING]
-> **Crucix has not launched any official token, coin, NFT, airdrop, presale, or other blockchain-based asset.**
-> Any token or digital asset using the Crucix name, logo, or branding is not affiliated with or endorsed by Crucix.
-> Do not buy it, promote it, connect a wallet to claim it, sign transactions, or send funds based on third-party posts, DMs, or websites.
-
+> [!ВНИМАНИЕ]
+> ** Crucix не запускала никаких официальных токенов, монет, NFT, airdrop, пресейлов или других активов, основанных на блокчейне.**
+> Любой токен или цифровой актив, использующий название, логотип или фирменный стиль Crucix, не связан с Crucix и не одобрен ею.
+> Не покупайте его, не рекламируйте, не подключайте кошелек, чтобы получить его, не подписывайте транзакции и не отправляйте средства, основываясь на сообщениях третьих лиц, DMS или веб-сайтах.
 ---
 
-## Why This Exists
+## Почему Это Существует
 
-Most of the world's real-time intelligence — satellite imagery, radiation levels, conflict events, economic indicators, flight tracking, maritime activity — is publicly available. It's just scattered across dozens of government APIs, research institutions, and open data feeds that nobody has time to check individually.
+Большая часть мировой информации в режиме реального времени - спутниковые снимки, уровни радиации, события в конфликтах, экономические показатели, отслеживание полетов, активность на море — находится в открытом доступе. Она просто разбросана по десяткам правительственных API, исследовательских институтов и открытых источников данных, которые ни у кого нет времени проверять по отдельности.
 
-Crucix brings it all into one place. Not behind a paywall, not locked in an enterprise platform, not requiring a security clearance. Just open data, aggregated and cross-correlated on your own machine, updated every 15 minutes.
+Crucix объединяет все это в одном месте. Не за платным доступом, не привязан к корпоративной платформе, не требует доступа к системе безопасности. Просто открывайте данные, агрегируйте и сопоставляйте их на своем компьютере, обновляйте каждые 15 минут.
 
-It was built for anyone who wants to understand what's actually happening in the world right now — researchers, journalists, traders, OSINT analysts, or just curious people who believe access to information shouldn't depend on your budget.
-
+Он был создан для всех, кто хочет понять, что на самом деле происходит в мире прямо сейчас — исследователей, журналистов, трейдеров, OSINT-аналитиков или просто любопытных людей, которые считают, что доступ к информации не должен зависеть от вашего бюджета.
 ---
 
 ## Quick Start
