@@ -1,6 +1,6 @@
 <div align="center">
 
-# Cruci
+# Crucix
 
 **Your own intelligence terminal. 27 sources. One command. Zero cloud.**
 
