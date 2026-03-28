@@ -50,7 +50,7 @@ Crucix собирает данные о лесных пожарах со спу�
 
 ## Предупреждение о токене / активе
 
-> [⚠️ВНИМАНИЕ]
+> [!WARNING]
 > **Crucix не запускала никаких официальных токенов, монет, NFT, airdrop, пресейлов или других активов, основанных на блокчейне.**
 > Любой токен или цифровой актив, использующий название, логотип или фирменный стиль Crucix, не связан с Crucix и не одобрен ею.
 > Не покупайте его, не рекламируйте, не подключайте кошелек, чтобы получить его, не подписывайте транзакции и не отправляйте средства, основываясь на сообщениях третьих лиц, DMS или веб-сайтах.
@@ -65,28 +65,28 @@ Crucix объединяет все это в одном месте. Не за п
 Он был создан для всех, кто хочет понять, что на самом деле происходит в мире прямо сейчас — исследователей, журналистов, трейдеров, OSINT-аналитиков или просто любопытных людей, которые считают, что доступ к информации не должен зависеть от вашего бюджета.
 ---
 
-## Quick Start
+## Быстрый запуск
 
 ```bash
-# 1. Clone the repo
+# 1. Клонируйте репозиторий
 git clone https://github.com/calesthio/Crucix.git
 cd Crucix
 
-# 2. Install dependencies (just Express)
+# 2. Установите зависимости
 npm install
 
-# 3. Copy env template and add your API keys (see below)
+# 3. Скопируйте шаблон .env и добавьте свои API-ключи (см. ниже).
 cp .env.example .env
 
-# 4. Start the dashboard
+# 4. Запустите панель управления.
 npm run dev
 ```
 
-> **If `npm run dev` fails silently** (exits with no output), run Node directly instead:
+> **Если `npm run dev` завершается без ошибок**, и без вывода (тихо падает), запустите Node напрямую:
 > ```bash
 > node --trace-warnings server.mjs
 > ```
-> This bypasses npm's script runner, which can swallow errors on some systems (particularly PowerShell on Windows). You can also run `node diag.mjs` to diagnose the exact issue — it checks your Node version, tests each module import individually, and verifies port availability. See [Troubleshooting](#troubleshooting) for more.
+> Это позволяет обойти npm-скрипт, который на некоторых системах (особенно в PowerShell на Windows) может «глотать» ошибки и не показывать их. Также можно выполнить `node diag.mjs` чтобы найти точную причину проблемы — этот скрипт проверяет версию Node, поочерёдно тестирует каждый импорт модуля и проверяет доступность порта. Подробнее см. в разделе [Troubleshooting](#troubleshooting).
 
 The dashboard opens automatically at `http://localhost:3117` and immediately begins its first intelligence sweep. This initial sweep queries all 27 sources in parallel and typically takes 30–60 seconds — the dashboard will appear empty until the sweep completes and pushes the first data update. After that, it auto-refreshes every 15 minutes via SSE (Server-Sent Events). No manual page refresh needed.
 
