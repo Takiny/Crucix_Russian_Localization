@@ -23,13 +23,13 @@
 ![Crucix Dashboard](docs/dashboard.png)
 
 <details>
-<summary>More screenshots</summary>
+<summary>Больше изображений</summary>
 
-| Boot Sequence | World Map |
-|:---:|:---:|
+| Экран загрузки | Карта мира |
+|:---:|:---:| 
 | ![Boot](docs/boot.png) | ![Map](docs/map.png) |
 
-| 3D Globe View |
+| 3D Вид глобуса |
 |:---:|
 | ![Globe](docs/globe.png) |
 
