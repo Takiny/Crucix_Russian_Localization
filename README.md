@@ -50,7 +50,7 @@ Crucix собирает данные о лесных пожарах со спу�
 
 ## Предупреждение о токене / активе
 
-> [!WARNING]
+> [!ВНИМАНИЕ]
 > **Crucix не запускала никаких официальных токенов, монет, NFT, airdrop, пресейлов или других активов, основанных на блокчейне.**
 > Любой токен или цифровой актив, использующий название, логотип или фирменный стиль Crucix, не связан с Crucix и не одобрен ею.
 > Не покупайте его, не рекламируйте, не подключайте кошелек, чтобы получить его, не подписывайте транзакции и не отправляйте средства, основываясь на сообщениях третьих лиц, DMS или веб-сайтах.
@@ -88,9 +88,9 @@ npm run dev
 > ```
 > Это позволяет обойти npm-скрипт, который на некоторых системах (особенно в PowerShell на Windows) может «глотать» ошибки и не показывать их. Также можно выполнить `node diag.mjs` чтобы найти точную причину проблемы — этот скрипт проверяет версию Node, поочерёдно тестирует каждый импорт модуля и проверяет доступность порта. Подробнее см. в разделе [Troubleshooting](#troubleshooting).
 
-The dashboard opens automatically at `http://localhost:3117` and immediately begins its first intelligence sweep. This initial sweep queries all 27 sources in parallel and typically takes 30–60 seconds — the dashboard will appear empty until the sweep completes and pushes the first data update. After that, it auto-refreshes every 15 minutes via SSE (Server-Sent Events). No manual page refresh needed.
+Панель управления автоматически открывается по адресу `http://localhost:3117` и сразу начинает первый цикл сбора данных. этот момент система одновременно обращается ко всем 29 источникам информации, поэтому процесс занимает примерно 30–60 секунд, и интерфейс может выглядеть пустым до завершения загрузки первых результатов. Дальше данные обновляются автоматически каждые 15 минут через SSE (Server-Sent Events), так что обновлять страницу вручную не требуется.
 
-**Requirements:** Node.js 22+ (uses native `fetch`, top-level `await`, ESM)
+**Требования:** Node.js 22+ (используются нативный `fetch`, top-level `await` и ESM-модули).
 
 ### Docker
 
