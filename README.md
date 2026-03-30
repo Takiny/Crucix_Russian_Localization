@@ -97,7 +97,7 @@ npm run dev
 ```bash
 git clone https://github.com/calesthio/Crucix.git
 cd Crucix
-cp .env.example .env    # add your API keys
+cp .env.example .env    # Укажите свои API-ключи
 docker compose up -d
 ```
 
@@ -105,13 +105,13 @@ Dashboard at `http://localhost:3117`. Sweep data persists in `./runs/` via volum
 
 ---
 
-## What You Get
+## **Что вы получите**
 
 ### Live Dashboard
-A self-contained Jarvis-style HUD with:
-- **3D WebGL globe** (Globe.gl) with atmosphere glow, star field, and smooth rotation — plus a classic flat map toggle
-- **9 marker types** across both views: fire detections, air traffic, radiation sites, maritime chokepoints, SDR receivers, OSINT events, health alerts, geolocated news, conflict events
-- **Animated 3D flight corridor arcs** between air traffic hotspots and global hubs
+Автономный интерфейс (HUD) в стиле «Джарвиса»:
+- **3D WebGL-глобус** (Globe.gl) с эффектом свечения атмосферы, звёздным фоном и плавным вращением — а также с переключателем на классическую плоскую карту
+- **9 видов меток** в обоих режимах: обнаружение пожаров, авиадвижение, радиационные объекты, важные морские узлы, SDR-приёмники, OSINT-события, оповещения о здоровье, геолокализованные новости, события конфликтов
+- **Анимированные 3D маршруты перелётов** между важными авиаузлами
 - **Region filters** (World, Americas, Europe, Middle East, Asia Pacific, Africa) — rotates the globe or zooms the flat map
 - **Live market data** — indexes, crypto, energy, commodities via Yahoo Finance (no API key needed)
 - **Risk gauges** — VIX, high-yield spread, supply chain pressure index
